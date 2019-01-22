@@ -1,0 +1,39 @@
+package arrays;
+
+public class Calc {
+	public static int add(int firstNumber, int secondNumber, boolean multiplyOrAdd) {
+		if (multiplyOrAdd == true) {
+			return firstNumber + secondNumber;
+		}else if (multiplyOrAdd == false){
+			return firstNumber * secondNumber;
+		}
+		
+		return firstNumber;
+					
+	}
+	
+	public int subtract(int firstNumber, int secondNumber) 
+	{
+		if (firstNumber == 0) {
+			return secondNumber;
+		}else if(secondNumber == 0){
+			return firstNumber;
+		}else {
+			return firstNumber - secondNumber;
+		}
+	
+	}
+	
+	public int[] multiply(int [] collection) {
+		return collection;
+		
+	}
+	public int divide(int firstNumber, int secondNumber) {
+		return firstNumber / secondNumber;
+		
+	}
+	public int mod(int firstNumber, int secondNumber) {
+		return firstNumber % secondNumber;
+	}
+
+}

@@ -1,0 +1,30 @@
+package arrays;
+
+public class Calc {
+	public static int add(int firstNumber, int secondNumber, boolean multiplyOrAdd) {
+		if (multiplyOrAdd = true) {
+			return firstNumber + secondNumber;
+		}else {
+			return firstNumber * secondNumber;
+		}
+			
+	}
+	
+	public int subtract(int firstNumber, int secondNumber) {
+		return firstNumber - secondNumber;
+		
+	}
+	
+	public int multiply(int firstNumber, int secondNumber) {
+		return firstNumber * secondNumber;
+		
+	}
+	public int divide(int firstNumber, int secondNumber) {
+		return firstNumber / secondNumber;
+		
+	}
+	public int mod(int firstNumber, int secondNumber) {
+		return firstNumber % secondNumber;
+	}
+
+}

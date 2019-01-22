@@ -1,0 +1,23 @@
+package arrays;
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		int firstNumber = 43;
+		int secondNumber = 0;
+		int [] collection = {1,2,3,4,5,6,7,8,9,10};
+		
+		/**int result = Calc.add(firstNumber, secondNumber, false);
+		System.out.print(result);
+		**/
+		Calc calc = new Calc();
+		
+		
+		int result = calc.subtract(firstNumber, secondNumber);
+		for (int i = result; i < 10; i++);
+		System.out.print(result);
+		
+		
+	}
+
+}
