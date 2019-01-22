@@ -1,0 +1,15 @@
+
+public class Main {
+	
+	public static int add(int firstNumber, int secondNumber) {
+		return firstNumber + secondNumber;
+	}
+
+	public static void main(String[] args) {
+		
+		String outputMsg = "The sum of 343 + 3432 is: " + add(343,3432);
+		System.out.print(outputMsg);
+
+	}
+
+}

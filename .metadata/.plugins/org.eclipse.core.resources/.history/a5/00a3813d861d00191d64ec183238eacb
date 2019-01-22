@@ -1,0 +1,33 @@
+
+public class Main {
+	
+	
+	public static void main(String[] args) {
+		int firstNumber = 343;
+		int secondNumber = 3432;
+		int total = Calculator.add(firstNumber, secondNumber);
+		String outputMsg = "The sumation of " + firstNumber + " and " + secondNumber + " is " + total;
+		System.out.println(outputMsg);
+		
+		Calculator calc = new Calculator();
+		
+		total = calc.subtract(firstNumber, secondNumber);
+		outputMsg = "The subraction of " + firstNumber + " and " + secondNumber + " is " + total;
+		System.out.println(outputMsg);
+		
+		total = calc.multiply(firstNumber, secondNumber);
+		outputMsg = "The multiplication of " + firstNumber + " and " +secondNumber + " is " + total;
+		System.out.println(outputMsg);
+		
+		total = calc.divide(firstNumber, secondNumber);
+		outputMsg = "The division of " + firstNumber + " and " + secondNumber + " is " + total;
+		System.out.println(outputMsg);
+		
+		total = calc.mod(firstNumber, secondNumber);
+		outputMsg = "The division of " + firstNumber + " and " + secondNumber + " is " + total;
+		System.out.println(outputMsg);
+
+	}
+	
+
+}
