@@ -7,6 +7,7 @@ public class Placement {
 		System.out.println("Enter your position: ");
 		Scanner s = new Scanner(System.in);
 		int place = s.nextInt();
+		System.out.println("You finnished in position);
 		
 		
 		String [] positions = new String[100];
@@ -71,8 +72,17 @@ public class Placement {
 		}
 		
 		for (int i = 0; i < 100; i++) {
-			System.out.println(positions[i]);
-			
+			if(i%10==0 ) {
+				System.out.println(positions[i]);
+			}
+			else {
+				if(i/10==0) {
+					System.out.print(" "+positions[i]+"  ");
+				}
+				else {
+					System.out.print(" "+positions[i]+" ");
+				}
+			}
 		}
 	}
 }
