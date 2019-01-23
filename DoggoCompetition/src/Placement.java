@@ -23,6 +23,8 @@ public class Placement {
 					continue;
 				}
 				
+				
+				
 				else if(i % 10 == 0) {
 					positions[i] = positions[i] + "st";
 				}
@@ -40,11 +42,17 @@ public class Placement {
 				positions[i] = "";
 			}
 			else {
-				if(i/10==1) {
+				if(i/10==1 && i % 10 ==9) {
+					positions[i] = positions[i+1] + "st";
+					continue;
+				}
+				else if (i/10==1) {
 					positions[i] =positions[i+1] + "th";
 					continue;
+					}
 					
-				}
+					
+				
 				else if(i % 10 == 0) {
 					positions[i] = positions[i + 1] + "nd";
 				}
