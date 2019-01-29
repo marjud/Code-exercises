@@ -66,6 +66,8 @@ private int math, chem, phys;
 		}else if(chem < pass && phys < pass) {
 			System.out.println("Failed 2 subjects, please repeat");
 			printResults();
+		}else {
+			goHome();
 		}
 	}
 	
