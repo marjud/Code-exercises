@@ -5,7 +5,7 @@ public class What {
 	public void One() {
 		int x;
 		x = 15;
-		this.x = 300;
+		this.x = 300 + 44 + x;
 		System.out.println(++x);
 	}
 	public void show() {
